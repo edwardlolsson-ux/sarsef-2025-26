@@ -42,6 +42,9 @@ These are global datasets so methods can be used anywhere in the world.
 - All organization of the AI process and project transparency was developed with guidance from Ed's dad (see Family Contributions).
 - Ed Olsson must understand, review, and, if in doubt, ask questions before moving forward.
 
+### Git and Publishing
+- When pushing changes to GitHub, a Personal Access Token (PAT) stored at `~/.git-token` can be used for authentication when prompted (use the token as the password).
+
 ## Next Steps
 - Create directories for `artifacts/` and `sarsef/`
 - Save official SARSEF links and background content (for reference only) into markdown in `sarsef/` directory, list those here
