@@ -31,6 +31,8 @@ These are global datasets so methods can be used anywhere in the world.
 - [sarsef/develop-and-use-models.md](sarsef/develop-and-use-models.md) — SARSEF guide: Developing and Using Models
 - [sarsef/plan-investigations.md](sarsef/plan-investigations.md) — SARSEF guide: Planning Investigations
 
+- [artifacts/20251116-10:23-osm-roads-download.md](artifacts/20251116-10:23-osm-roads-download.md) — Logged the OSM roads download & conversion workflow
+
 - *(more artifacts will be added in planning and decision making)*
 
 ## Family Contributions
@@ -46,6 +48,11 @@ These are global datasets so methods can be used anywhere in the world.
 - When pushing changes to GitHub, a Personal Access Token (PAT) stored at `~/.git-token` can be used for authentication when prompted (use the token as the password).
 
 ## Next Steps
+- Study area locked (see `data/study_area.geojson`) – all OSM/iNaturalist pulls must clip to this polygon.
+- OSM roads dataset downloaded & converted to GeoJSON (see `data/osm_roads.geojson` and artifact `20251116-10:23-osm-roads-download.md`).
+- Added `notebooks/osm_roads_preview.ipynb` for quick visualization of the downloaded roads (requires `geopandas` + `matplotlib`).
+- Next focus: finalize iNaturalist query/filters for target species in the same footprint and draft how the two datasets will intersect for crossing hotspots.
+- Document any filters, scripts, or workflow choices as new artifacts so they’re traceable.
 - Create directories for `artifacts/` and `sarsef/`
 - Save official SARSEF links and background content (for reference only) into markdown in `sarsef/` directory, list those here
 - Begin outlining project step-by-step plan in this file

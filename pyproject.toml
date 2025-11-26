@@ -1,0 +1,15 @@
+[project]
+name = "sarsef-2025-26"
+version = "0.1.0"
+description = "Exploration scripts and notebooks for the SARSEF 2025-2026 study area"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=0.14",
+    "matplotlib>=3.9",
+    "jupyterlab>=4.3",
+    "ipykernel>=6.29",
+]
+
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
