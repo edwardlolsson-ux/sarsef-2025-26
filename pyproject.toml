@@ -9,6 +9,7 @@ dependencies = [
     "jupyterlab>=4.3",
     "ipykernel>=6.29",
     "contextily>=1.6",
+    "folium>=0.15",
 ]
 
 [build-system]
