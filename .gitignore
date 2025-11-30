@@ -1,3 +1,2 @@
-# Ignore large GIS exports that exceed GitHub limits
-/data/osm_roads.geojson
-/data/osm_roads_raw.json
+# Ignore data directory (large GIS datasets)
+/data/
