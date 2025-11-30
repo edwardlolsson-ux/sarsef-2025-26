@@ -32,9 +32,9 @@ __pycache__/
 .Trashes
 Thumbs.db
 
-# IDE (optional - uncomment if you don't want to track IDE settings)
-# .vscode/
-# .idea/
+# IDE settings
+.vscode/
+.idea/
 
 # Testing
 .pytest_cache/
