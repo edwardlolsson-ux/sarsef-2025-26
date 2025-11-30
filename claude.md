@@ -45,7 +45,7 @@ These are global datasets so methods can be used anywhere in the world.
 - Ed Olsson must understand, review, and, if in doubt, ask questions before moving forward.
 
 ### Git and Publishing
-- When pushing changes to GitHub, a Personal Access Token (PAT) stored at `~/.git-token` can be used for authentication when prompted (use the token as the password).
+- When pushing changes to GitHub, a Personal Access Token (PAT) stored at `~/.git-token-ed` can be used for authentication when prompted (use the token as the password).
 
 ## Next Steps
 - Study area locked (see `data/study_area.geojson`) – all OSM/iNaturalist pulls must clip to this polygon.
