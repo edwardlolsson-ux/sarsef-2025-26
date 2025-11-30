@@ -14,3 +14,6 @@ dependencies = [
 [build-system]
 requires = ["setuptools>=65"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []  # This is a project with notebooks/scripts, not a Python package
