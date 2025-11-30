@@ -1,2 +1,49 @@
 # Ignore data directory (large GIS datasets)
 /data/
+
+# Python virtual environments and package manager caches
+.venv/
+.uv-cache/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints and config
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.ipython/
+
+# Environment variables (sensitive)
+.env
+.env.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDE (optional - uncomment if you don't want to track IDE settings)
+# .vscode/
+# .idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Cache directories
+.cache/
+*.cache
